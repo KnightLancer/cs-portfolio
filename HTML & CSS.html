@@ -3,7 +3,7 @@
     <head>
          <link rel="stylesheet" href="" type="text/css" />
          <title>HTML & CSS</title>
-         <style>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>         <style>
              body {
                  font-family:cursive;
                  background-image:url("http://neory.co.in/images/Methods/2.jpg");
@@ -14,11 +14,18 @@
              }
          </style>
     </head>
+    <ul id="navbar" style="color:white">
+        <li><a href="#HTML">What is HTML?</a><br></li>
+        <li><a href="#CSS">What is CSS?</a><br></li>
+        <li><a href="#Tags">How do tags work?</a><br></li>
+        <li><a href="#Attributes">What are attributes?</a><br></li>
+        <li><a href="Examples">Examples of tags.</a></li>
+    </ul>
     
     <body>
         <h1 align=center>HTML and CSS</h1>
         <p style="font-family:arial"><font size=""></font>HTML and CSS are coding languages used to render a page and develop a website to be added to the Internet. This website, coincidently using HTML and CSS, will explain the basics of what these terms mean.</p>
-        <h3>What is HTML and why is it important?</h3>
+        <h3 id="HTML">What is HTML and why is it important?</h3>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png" style="background-color:white;" width=260>
         <ul style="font-family:courier">
             <li><em>What does it stand for?</em><br> HTML stands for HyperText Markup Language, and it is the language behind creating a webpage. It can be seen as the language that the browser can only understand.</li><br>
@@ -27,14 +34,35 @@
             <li><em>How is it used?</em><br> HTML is used by adding whatever content you wish to input in between angle bracketed tags dictating how the content should be displayed or rendered by the page. For example, to write a paragraph with HTML, use the tags "p" and "/p" within left and right angle brackets and write whatever you want in between the two tags. Some tags are used to tell the page how the information should look on the page, like its file name or tab title, or decide how the page should be described/labeled as.</li><br>
         </ul>
         
-    <h3>What is CSS and why is it important?</h3>
+    <h3 id="CSS">What is CSS and why is it important?</h3>
     <img src="https://www.chicagoexcelclasses.com/wp-content/uploads/2014/04/css31.jpg">
-    <ul style="font-family:verdana">
+    <ul style="font-family:lucida bright; font-size:14pt">
         <li><em>What does it stand for?</em><br> CSS stands for Cascading style sheets, and it is the coding language used to style and design your page to add that uniqueness to it, as well as manage the layout of the page.</li><br>
         <li><em>How is it used?</em><br> CSS also uses tags, either within HTML tags or under a tag called "style" and "/style". It requires more spaced out options like dictating a certain section of the page that requires styling, adding a sguiggly bracket, hitting "Enter", typing in the styling option, then typing in how the style should be, and ending with another sguiggly bracket. For every styling option, from background images to font size, there has to be a series of descriptions with ranges of numbers and details.</li><br>
-        <li><em>Where did it come from</em><br> CSS was first proposed by Håkon Wium Lie, co-worker of Tim-Berners Lee, in October 10, 1994. It was built upon over the months following with a series of proposals for different style sheets, collaborations, presentations, and more work, but eventually CSS became official at the beginning of 1997.</li><br>
+        <li><em>Where did it come from</em><br> CSS was first proposed by Hakon Wium Lie, co-worker of Tim-Berners Lee, in October 10, 1994. It was built upon over the months following with a series of proposals for different style sheets, collaborations, presentations, and more work, but eventually CSS became official at the beginning of 1997.</li><br>
         <li><em>How is it written?</em><br> As mentioned before, CSS uses tags, but in different places than HTML tags. CSS tags can be implemented with the beginning tag of an HTML tag couple, as well as have its own "style" and "/style" tag within the "head" and "/head" tags.</li><br>
     </ul>
     
+    <h3 id="Tags">How do tags work?</h3>
+    <ul style="font-family:verdana">
+        <li><em>What is a tag?</em></li> Tags are like the hidden keywords that help the browser decide how to display content.<br><br>
+        <li><em>How do write one?</em> All tags require a left angle bracket, whatever keyword you wish, and then a right andle bracket. After writing down your content, if not done already, you need another tag with the same brackets and keywords, except for a backlash inputed before the keyword.</li>
+    </ul>
+    
+    <h3 id="Attributes">What are atrributes and how do they work?</h3>
+    <ul style="font-family:papyrus; font-size:13pt">
+        <li><em>How do you change attributes?</em><br> Attributes are modifying keywords added to the start tags that can further specify how content should be displayed.</li><br>
+        <li><em>What are some examples?</em><br> Some examples of attributes are the "src" attribute, which specifies a url for an image; the "style" attribute, which allows CSS actions within HTML; and the "href" attribute, which adds detail for the link "a" tag about which url should the "a" tag lead to. </li>
+    </ul>
+    
+    <h3 id="Examples">Descriptions of at least 4 tags.</h3>
+    <ul style="font-family:Raleway; font-size:13pt">
+        <li>"head"<br>The "head" tag basically defines information about a page, like its background title, its internal CSS, or how the page allows a separate tab all about CSS to connect to it.</li><br>
+        <li>"style"<br>The "style" tag allows for CSS styling options within the HTML tags without the need to edit CSS on a separate sheet.</li><br>
+        <li>"ul"<br> The "unordered list" tag starts a bullet point list, followed by "list" ("li") tags and the content in between.</li><br>
+        <li>"h1 - h6"<br> The tags "h1" through "h6" are heading tags based on importance, where "h1" is most important and "h6" is of lowest importance.</li><br>
+    </ul>
+    <a href="https://preview.c9.io/knightlancer/project-1/index.html?_c9_id=livepreview2&_c9_host=https://ide.c9.io">Back</a><br>
+    <a href="#navbar">Back to Top</a>
     </body>
 </html>
