@@ -7,35 +7,39 @@ var display = document.getElementById('display');
 var dropdown = document.getElementById("dropdown");
 
 button.addEventListener("click", doMath);
+document.addEventListener("keydown", doMath);
 
-function doMath() {
-    if  (dropdown.value == "+"){
+function doMath(evt.keyCode) {
+    if (dropdown.value == "+") {
         answer = parseInt(input1.value) + parseInt(input2.value);
         display.innerHTML = answer;
     }
-    
-    if  (dropdown.value == "-"){
+
+    if (dropdown.value == "-") {
         answer = parseInt(input1.value) - parseInt(input2.value);
         display.innerHTML = answer;
     }
-    
-    if  (dropdown.value == "x"){
+
+    if (dropdown.value == "x") {
         answer = parseInt(input1.value) * parseInt(input2.value);
         display.innerHTML = answer;
     }
-    
-    if  (dropdown.value == "/"){
+    if (dropdown.value == "/") {
         answer = parseInt(input1.value) / parseInt(input2.value);
         display.innerHTML = answer;
     }
-    
-    if  (dropdown.value == "^"){
-        answer = Math.pow(input1.value,input2.value);
+
+    if (dropdown.value == "pow") {
+        answer = Math.pow(input1.value, input2.value);
+        display.innerHTML = answer;
+    }
+
+    if (dropdown.value == "sqrt") {
+        answer = Math.sqrt(input1.value);
         display.innerHTML = answer;
     }
     
-    if  (dropdown.value == "sqrt"){
-        answer = Math.sqrt(input1.value);
-        display.innerHTML = answer;
+    if  (evt.keyCode == 13){
+        ;
     }
 }

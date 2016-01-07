@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="calc.css">
 	<title>Document</title>
 </head>
+
+
 <body>
-    
-<input type ="text" name="input1" style="width:50px;" id="input1">
+ <div id="values">   
+<input type ="text" name="input1" style="width:360px;" id="input1">
     <select id="dropdown">
         <option value="+">+</option>
         <option value="-">-</option>
         <option value="x">x</option>
         <option value="/">/</option>
-        <option value="^">^</option>
+        <option value="pow">pow</option>
         <option value="sqrt">sqrt</option>
     </select>
-    <input type ="text" name="input2" style="width:50px;" id="input2">
+    <input type ="text" name="input2" style="width:360px;" id="input2">
     <input type="button" value="Calculate" id="submitButton" />
-
-    <p>The answer is: <span id="display"></span></p>
+</div>
+    <p id="answer">The answer is: <span id="display"></span></p>
 <script src="calc.js" ></script>
 
-<p>(With sqrt, you only need to input a value in the first box.)</p>
+<p id="sqrt"><br><br><br><br><br><br><br><br><br>(With sqrt, you only need to input a value in the first box.)</p>
 
 </body>
 </html>
