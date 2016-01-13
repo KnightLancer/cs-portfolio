@@ -33,3 +33,16 @@ else {
     confirm("Please choose an option.")
 }
 }
+
+Tabs:
+abc0 = Player 1
+
+P2a1 = Player 2 choose, P1 rock
+
+P2b1 = Player 2 choose, P1 paper
+
+P2c1 = Player 2 choose, P1 scissors
+
+P1Win = Player 1 wins
+P2Win = Player 2 wins
+tie = It's a tie!

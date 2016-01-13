@@ -1,0 +1,46 @@
+body {
+    background-image:url("http://img08.deviantart.net/f534/i/2013/016/5/c/roshambo_by_xsnozzlefluff-d5ropfq.jpg");
+    background-size:cover;
+    color:white;
+}
+
+form {
+    display:inline-block;
+}
+
+h1 {
+    text-align:center;
+}
+
+#choose {
+    font-size:20pt;
+    text-align:center;
+}
+
+#rock {
+    font-size:40pt;
+    position:absolute;
+    left:150px;
+    top:140px;
+}
+
+#paper {
+    font-size:40pt;
+    position:absolute;
+    left:605px;
+    top:140px;
+}
+
+#scissors {
+    font-size:40pt;
+    position:absolute;
+    left:1040px;
+    top:140px;
+}
+
+#retry {
+    font-size:40pt;
+    position:absolute;
+    left:540px;
+    top:140px;
+}
