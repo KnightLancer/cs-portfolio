@@ -17,29 +17,30 @@ h1 {
     text-align:center;
 }
 
-#scissors {
-    font-size:40pt;
-    position:absolute;
-    left:150px;
-    top:140px;
-}
-
 #rock {
     font-size:40pt;
     position:absolute;
-    left:605px;
-    top:140px;
+    left:150px;
+    bottom:200px;
 }
 
 #paper {
     font-size:40pt;
     position:absolute;
+    left:605px;
+    bottom:200px;
+}
+
+#scissors {
+    font-size:40pt;
+    position:absolute;
     left:1040px;
-    top:140px;
+    bottom:200px;
 }
 
 #retry {
+    font-size:40pt;
     position:absolute;
-    left:701px;
-    top:892px;
+    left:540px;
+    top:140px;
 }
