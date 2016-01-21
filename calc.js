@@ -1,15 +1,14 @@
 // JavaScript File
 var button = document.getElementById("submitButton");
-var input1 = document.getElementById('input1');
-var input2 = document.getElementById('input2');
+var input1 = document.getElementById("input1");
+var input2 = document.getElementById("input2");
 var answer;
-var display = document.getElementById('display');
+var display = document.getElementById("display");
 var dropdown = document.getElementById("dropdown");
 
 button.addEventListener("click", doMath);
-document.addEventListener("keydown", doMath);
 
-function doMath(evt.keyCode) {
+function doMath() {
     if (dropdown.value == "+") {
         answer = parseInt(input1.value) + parseInt(input2.value);
         display.innerHTML = answer;
@@ -37,9 +36,5 @@ function doMath(evt.keyCode) {
     if (dropdown.value == "sqrt") {
         answer = Math.sqrt(input1.value);
         display.innerHTML = answer;
-    }
-    
-    if  (evt.keyCode == 13){
-        ;
     }
 }
