@@ -4,6 +4,8 @@ Web Safe Colors: http://www.w3schools.com/colors/colors_names.asp
 
 Khan Academy actions with the cursor: https://www.khanacademy.org/computing/computer-programming/html-css/more-css-selectors/p/css-dynamic-pseudo-classes
 
+Keyboard shortcuts for terminal (aka that "bash" tab that's usually on the right): https://docs.c9.io/docs/terminal
+
 SPM Model Plan: https://docs.google.com/document/d/1a0m3qf4WTX6PKwIgWZe-K3DUG3VvFcUWew7sRpmzytU/edit
 
 Elsword Character Image urls:
