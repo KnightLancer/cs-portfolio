@@ -1,0 +1,92 @@
+body {
+    background-image:url("https://i.ytimg.com/vi/rB_5J7pCo_A/maxresdefault.jpg");
+    background-attachment:fixed;
+}
+
+#firstimage {
+    margin-left:30%;
+    width:400pt;
+    height:250pt;
+}
+
+#firsttext {
+    text-align:center;
+    font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 70px;
+	background-color:white;
+}
+
+#firstinfo {
+    text-align:center;
+    background-color:white;
+    font-family:arial;
+    font-size:20pt;
+}
+
+#BaseElsword:hover {
+    background-color:red;
+}
+
+#BaseAisha:hover {
+    background-color:purple;
+}
+
+#BaseRena:hover {
+    background-color:chartreuse;
+}
+
+#BaseRaven:hover {
+    background-color:lightslategray;
+}
+
+#BaseEve:hover {
+    background-color:pink;
+}
+
+#BaseChung:hover {
+    background-color:skyblue;
+}
+
+#BaseAra:hover {
+    background-color:orange;
+}
+
+#BaseElesis:hover {
+    background-color:red;
+}
+
+#BaseAdd:hover {
+    background-color:thistle;
+}
+
+#BaseLuciel:hover {
+    background-color:navy;
+}
+
+#BaseAisha {
+    width:400px;
+}
+
+#BaseRena {
+    width:380px;
+}
+
+#BaseRaven {
+    width:380px;
+}
+
+#BaseEve {
+    width:440px;
+}
+
+#BaseChung {
+    width:500px;
+}
+
+#BaseAra {
+    width:350px;
+}
