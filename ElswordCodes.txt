@@ -64,6 +64,12 @@ Night Watcher: http://elwiki.net/wiki/images/thumb/5/50/NWNew2.png/350px-NWNew2.
 
 Nasod Foundry Wallpaper: http://elwiki.net/wiki/images/thumb/4/4f/4-5new.jpg/800px-4-5new.jpg
 
+    RavenBackground.setAttribute("src" , "http://elwiki.net/wiki/images/thumb/4/4f/4-5new.jpg/800px-4-5new.jpg");
+    RavenBackground.setAttribute("width" , "1920");
+    RavenBackground.setAttribute("width" , "1080");
+    
+    document.body.style.backgroundAttachment = "fixed";
+
 Sword Taker: http://elwiki.net/wiki/images/thumb/d/dc/Sword_Taker.png/270px-Sword_Taker.png
 
 Blade Master: http://elwiki.net/wiki/images/thumb/4/41/Master2HQ.png/430px-Master2HQ.png

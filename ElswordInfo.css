@@ -1,6 +1,7 @@
 body {
     background-image:url("https://i.ytimg.com/vi/rB_5J7pCo_A/maxresdefault.jpg");
     background-attachment:fixed;
+    background-size:cover;
 }
 
 #firstimage {
@@ -89,4 +90,43 @@ body {
 
 #BaseAra {
     width:350px;
+}
+
+#BaseLuciel {
+    width:550px;
+}
+
+#BaseElswordQuote {
+    color:red;
+    text-align:center;
+    font-family:arial;
+    font-size:30pt;
+}
+
+#BaseAishaQuote {
+    color:purple;
+    text-align:center;
+    font-family:georgia;
+    font-size:30pt;
+}
+
+#BaseRenaQuote {
+    color:chartreuse;
+    text-align:center;
+    font-family:copperplate;
+    font-size:30pt;
+}
+
+#BaseLucielQuote1 {
+    color:white;
+    float:left;
+    font-family:verdana;
+    font-size:20pt;
+}
+
+#BaseLucielQuote2 {
+    color:white;
+    float:right;
+    font-family:verdana;
+    font-size:20pt;
 }
