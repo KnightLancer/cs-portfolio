@@ -175,3 +175,15 @@ Dreadlord: http://elwiki.net/wiki/images/thumb/9/99/DreadlordPortrait.png/500px-
 Royal Guard: http://elwiki.net/wiki/images/thumb/1/1f/Royal_Guard.png/500px-Royal_Guard.png
 
 Noblesse: http://elwiki.net/wiki/images/thumb/1/1d/NoblesseP.png/550px-NoblesseP.png
+
+
+
+
+
+Tried to bring Aisha back after clicking Elsword and making everything disappear:
+
+    if (BaseAisha.style.display = "none") {
+        BaseElsword.addEventListener("click", function() {
+            BaseAisha.style.display = "visible";
+        });
+    }
