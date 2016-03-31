@@ -97,31 +97,59 @@ body {
 }
 
 #BaseElswordQuote {
-    color:red;
+    color:white;
     text-align:center;
     font-family:arial;
-    font-size:30pt;
+    font-size:20pt;
+    background-color:red;
+}
+
+#BaseElswordInfo {
+    color:white;
+    font-family:arial;
+    font-size:14pt;
+    line-height:160%;
+    background-color:red;
 }
 
 #BaseAishaQuote {
-    color:purple;
+    color:white;
     text-align:center;
     font-family:georgia;
-    font-size:30pt;
+    font-size:20pt;
+    background-color:purple;
+}
+
+#BaseAishaInfo {
+    color:white;
+    font-family:georgia;
+    font-size:14pt;
+    line-height:160%;
+    background-color:purple;
 }
 
 #BaseRenaQuote {
-    color:chartreuse;
+    color:white;
     text-align:center;
     font-family:copperplate;
     font-size:30pt;
+    background-color:chartreuse;
+}
+
+#BaseRenaInfo {
+    color:white;
+    font-family:copperplate;
+    font-size:14pt;
+    line-height:160%;
+    background-color:chartreuse;
 }
 
 #BaseLucielQuote1 {
-    color:white;
+    color:navy;
     float:left;
     font-family:verdana;
     font-size:20pt;
+    background-color:white;
 }
 
 #BaseLucielQuote2 {
@@ -129,4 +157,13 @@ body {
     float:right;
     font-family:verdana;
     font-size:20pt;
+    background-color:navy;
+}
+
+#BaseLucielInfo {
+    color:white;
+    font-family:verdana;
+    font-size:14pt;
+    line-height:160%;
+    background-color:navy
 }
