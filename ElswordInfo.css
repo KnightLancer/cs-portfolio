@@ -129,7 +129,7 @@ body {
 }
 
 #BaseRenaQuote {
-    color:white;
+    color:blue;
     text-align:center;
     font-family:copperplate;
     font-size:30pt;
@@ -137,11 +137,63 @@ body {
 }
 
 #BaseRenaInfo {
-    color:white;
+    color:blue;
     font-family:copperplate;
     font-size:14pt;
     line-height:160%;
     background-color:chartreuse;
+}
+
+#BaseRavenQuote {
+    text-align:center;
+    font-family:arial black;
+    font-size:20pt;
+    background-color:lightslategray;
+}
+
+#BaseRavenInfo {
+    font-family:arial black;
+    font-size:14pt;
+    line-height:160%;
+    background-color:lightslategray;
+}
+
+#BaseEveQuote {
+    text-align:center;
+    font-family:monospace;
+    font-size:20pt;
+    background-color:pink;
+}
+
+#BaseEveInfo {
+    font-family:monospace;
+    font-size:14pt;
+    line-height:160%;
+    background-color:pink;
+}
+
+#BaseChungQuote {
+    color:white;
+    text-align:center;
+    font-family:trebuchet ms;
+    font-size:20pt;
+    background-color:skyblue;
+}
+
+#BaseChungInfo {
+    color:white;
+    font-family:trebuchet ms;
+    font-size:14pt;
+    line-height:160%;
+    background-color:skyblue;
+}
+
+#BaseAraQuote {
+    color:white;
+    text-align:center;
+    font-family:lucida bright;
+    font-size:20pt;
+    background-color:orange;
 }
 
 #BaseLucielQuote1 {
@@ -166,4 +218,10 @@ body {
     font-size:14pt;
     line-height:160%;
     background-color:navy
+}
+
+#Refresh {
+    padding:15px 32px;
+    font-size:30pt;
+    
 }
