@@ -10,7 +10,7 @@ var info3 = document.getElementById("info3");
 var info5 = document.getElementById("info5");
 var info7 = document.getElementById("info7");
 var info9 = document.getElementById("info9");
-// connecting HTML elements to JS
+// connecting HTML elements to JS. Separated from top ones for neatness.
 
 item1.addEventListener("click", function(){
     // system listens for "click" in item1

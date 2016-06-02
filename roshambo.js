@@ -15,4 +15,6 @@ var randposition3 = positions[Math.floor(Math.random() * positions.length)];
 paper.style.left = randposition1;
 rock.style.left = randposition2;
 scissors.style.left = randposition3;
-// connects the choices to the randomizing function
+// connects the choices to the randomizing function\
+
+//In the end I couldn't get the buttons to randomize while preventing overlapping between buttons.

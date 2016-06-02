@@ -1,10 +1,10 @@
 // JavaScript File
 
-//These var's call upon the terms from the HTML page it is connected to to this page.
+//These var's call upon the terms from the HTML page it is connected to and make them available to be tuned by javascript in this page.
 var button = document.getElementById("submitButton");
 var input1 = document.getElementById("input1");
 var input2 = document.getElementById("input2");
-//Except this one.
+//Except this one because it doesn't have a document.getElementById
 var answer;
 var display = document.getElementById("display");
 var dropdown = document.getElementById("dropdown");

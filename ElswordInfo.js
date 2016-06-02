@@ -1,8 +1,10 @@
 // JavaScript File
+//All these vars connect its respective elements from the HTML it's connected to into this Javascript.
 var firstimage = document.getElementById("firstimage");
 var firsttext = document.getElementById("firsttext");
 var firstinfo = document.getElementById("firstinfo");
 
+//Images
 var BaseElsword = document.getElementById("BaseElsword");
 var BaseAisha = document.getElementById("BaseAisha");
 var BaseRena = document.getElementById("BaseRena");
@@ -14,6 +16,7 @@ var BaseElesis = document.getElementById("BaseElesis");
 var BaseAdd = document.getElementById("BaseAdd");
 var BaseLuciel = document.getElementById("BaseLuciel");
 
+//The quotes within the images.
 var BaseElswordQuote = document.getElementById("BaseElswordQuote");
 var BaseAishaQuote = document.getElementById("BaseAishaQuote");
 var BaseRenaQuote = document.getElementById("BaseRenaQuote");
@@ -26,6 +29,7 @@ var BaseAddQuote = document.getElementById("BaseAddQuote");
 var BaseLucielQuote1 = document.getElementById("BaseLucielQuote1");
 var BaseLucielQuote2 = document.getElementById("BaseLucielQuote2");
 
+//The info inside these images.
 var BaseElswordInfo = document.getElementById("BaseElswordInfo");
 var BaseAishaInfo = document.getElementById("BaseAishaInfo");
 var BaseRenaInfo = document.getElementById("BaseRenaInfo");
@@ -37,6 +41,7 @@ var BaseElesisInfo = document.getElementById("BaseElesisInfo");
 var BaseAddInfo = document.getElementById("BaseAddInfo");
 var BaseLucielInfo = document.getElementById("BaseLucielInfo");
 
+//The rest of these codes tell the system that when an image on the main page is clicked, every other image will delete and new text and a new background will spawn. You can tell when one character's code stops when the variable for the addEventListener changes, such as BaseElsword.addEventListener and BaseAisha.addEventListener.
 
 BaseElsword.addEventListener("click", function() {
     firstimage.style.display = "none";
