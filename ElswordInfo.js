@@ -55,7 +55,7 @@ BaseElsword.addEventListener("click", function() {
     
     BaseElswordQuote.innerHTML = "'Hey, I'm Elsword! I battle with my trusty sword!'";
     
-    BaseElswordInfo.innerHTML = "Elsword is that one hotheaded swordsman with confidence that overpowers his brains. Wielding a greatsword with only one hand, Elsword chops down any foe, big or small, as he and his allies search for his village's precious gem, the El Shard, and retrieve it from the clutches of evil. All the while, Elsword searches for his sister, who went on to the Velder Kingdom to combat and even larger threat. Elsword forms the 'El Search Party', but even as he finds the El, many more adventures beckon to his friends. As players, you can take control of this powerhouse, dishing out an array of heavy attacks, magical projectiles, and quick double-sword blows, depending on which path of the Knight you choose to follow.";
+    BaseElswordInfo.innerHTML = "Elsword is that one hotheaded swordsman with confidence that outweighs his brains. Strong enough to hold a greatsword with one hand, Elsword chops down any foe, big or small, as he and his allies search for his village's precious gem, the El Shard, and retrieve it from the clutches of evil. All the while, Elsword searches for his sister, who went on to the Velder Kingdom to combat and even larger threat. Elsword forms the 'El Search Party', but even as he finds the El, many more adventures beckon to his friends. As players, you can take control of this powerhouse, dishing out an array of heavy attacks, magical projectiles, and quick double-sword blows, depending on which path of the Knight you choose to follow.";
 });
 
 BaseAisha.addEventListener("click", function() {
@@ -188,7 +188,7 @@ BaseAra.addEventListener("click", function() {
     
     BaseAraQuote.innerHTML = "'Until I face my brother again... I cannot give up!'";
     
-    BaseAraInfo.innerHTML = "Ara Haan was born in the town of Fahrmann"
+    BaseAraInfo.innerHTML = "Ara Haan was born in the town of Fahrmann, a place in the Northern Empire of the Fluone Continent, just across the seas from Elrios. She was a part of the proud 'Haan' family which practiced martial arts, and her family rose to become the most highly regarded family in the continent. A demon invasion and the corruption of her brother was what it took to spur Ara into action, fighting foes with her spearmanship along with the fox goddess, Eun. Dishing out quickly executed stabs and acrobatics, she can pierce enemies from afar and dance around the battlefield. Utilizing spirit energy, she can enhance her skills and unlcok new abilities, and player never have to worry about spirit consumption when they enter Eun mode, when fox and Ara become one, significantly enhancing her parameters. Encountering a certain band of heroes along the way, Ara fights to dispel the demons around the world."
     
     document.body.style.backgroundImage = "url('http://www.mmogames.com/wp-content/uploads/2013/12/Elsword_Sander_2.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -212,6 +212,8 @@ BaseElesis.addEventListener("click", function() {
     
     BaseElesisQuote.innerHTML = "'People call me.... The 'Red Haired Knight'.'";
     
+    BaseElesisInfo.innerHTML = "Elesis was a well revered knight, and also the older sister of Elsword. One day, while the siblings were out on the field in their hometown of Ruben, demons attack her. This made something click in Elesis, as she nearly died in the attack had it not been for her brother. Therefore, she journeyed to become captain of the Red Knights at the kingdom of Velder. Wielding a greatsword as well, she can pummel enemies with a swing of her sword and send out blazing attacks to anyone in her way. Using her agility and strength to her advantage, she can knock out any foe who dares to bring injustice to her domain. Her leave from Ruben prompted Elsword to follow in her footsteps to become a fearsome knight himself, and when they reunited in Velder, they set off yet again to alleviate the suffering of others around the world."
+    
     document.body.style.backgroundImage = "url('http://elwiki.net/wiki/images/thumb/2/2b/VelderPlace.jpg/800px-VelderPlace.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundAttachment = "fixed";
@@ -233,6 +235,8 @@ BaseAdd.addEventListener("click", function() {
     BaseLuciel.style.display = "none";
     
     BaseAddQuote.innerHTML = "'Heheh.... the laws of this world... I shall decide them!'";
+    
+    BaseAddInfo.innerHTML = "The son of a profound family of scientists. His family specialized in researching the mystical race of Nasod robots. One day, his family was imprisoned for conducting forbidden research, and when Add escaped, he was shot and fell into a crack in time and space, in a special area called the Infinite Library. Driven to insanity by revenge and a natural lust for knowledge, he escapes to the future (present in this case) to decimate anyone in the way of his path to perfection. An insane but clean guy, Add uses Dynamos to do his bidding, floating devices in which he can reroute electricity to in order to initiate attacks. Enemies don't stand a chance as Add shocks them to doom and destroys literally anyone out of insanity. Players will understand why he's commonly regarded as a 'mand scientists' once they taste his power. Whilst his time in the library, he discovers a human-Nasod, Eve, and set about to finding her outside. He indeed pinpoint her, but she was with a special party of heroes, so he followed them on their brave journey around the globe."
     
     document.body.style.backgroundImage = "url('http://orig05.deviantart.net/aa10/f/2014/196/5/7/so_i_kept_pausing_the_video_in_add_s_anime_trailer_by_moonstar34-d7qsena.png')";
     document.body.style.backgroundSize = "cover";
@@ -258,7 +262,7 @@ BaseLuciel.addEventListener("click", function() {
     
     BaseLucielQuote2.innerHTML = "'I'll retake the throne ... I'll give my soul for you ... The contract is complete.' - Ciel";
     
-    BaseLucielInfo.innerHTML = "A high ranking demon lord betrayed by those of her kind and forced to flee to another world. A famous assassin of the criminal underworld, grown up lonely and with his will steeled to survive, who's thrusted into the conflict with demons. That is who Luciela 'Lu' R. Sourcream and Ciel are. Bound together by a fateful encounter, this duo sets of with the rest of the El Search Party, eradicating demons and saving people all over the world. As a dual character, Lu and Ciel are able to switch out during attacks and skills, dealing quick and devastating damage to anyone in their way. By utilizing not just one of the chracters but both, players can execute demonic magic and swift punches alongside the many players of Elsword.";
+    BaseLucielInfo.innerHTML = "A high ranking demon lord betrayed by those of her kind and forced to flee to another world. A famous assassin of the criminal underworld, grown up lonely and with his will steeled to survive, who's thrusted into the conflict with demons. That is who Luciela 'Lu' R. Sourcream and Ciel are. Bound together by a fateful encounter and demonic contract, this duo sets of with the rest of the El Search Party, eradicating demons and saving people all over the world. As a dual character, Lu and Ciel are able to switch out during attacks and skills, dealing quick and devastating damage to anyone in their way. With Lu, players can unleash her menacing magic and demonic claws. With Ciel, they can fire magical bullets and hack at enemies with his infamous gunblades. By utilizing not just one of the chracters but both, players can execute demonic magic and swift punches alongside the many players of Elsword.";
     
     document.body.style.backgroundImage = "url('https://secure.static.tumblr.com/543163caf2492801ced5400cc416a4f9/niofgx9/oOxnfbr7h/tumblr_static_d2xnjv4bdm0o888owww80sk00_640_v2.jpg')";
     document.body.style.backgroundSize = "cover";

@@ -173,7 +173,6 @@ body {
 }
 
 #BaseChungQuote {
-    color:white;
     text-align:center;
     font-family:trebuchet ms;
     font-size:20pt;
@@ -181,7 +180,6 @@ body {
 }
 
 #BaseChungInfo {
-    color:white;
     font-family:trebuchet ms;
     font-size:14pt;
     line-height:160%;
@@ -194,6 +192,44 @@ body {
     font-family:lucida bright;
     font-size:20pt;
     background-color:orange;
+}
+
+#BaseAraInfo {
+    color:white;
+    font-family:lucida bright;
+    font-size:14pt;
+    line-height:160%;
+    background-color:orange;
+}
+
+#BaseElesisQuote {
+    color:white;
+    text-align:center;
+    font-family:arial;
+    font-size:20pt;
+    background-color:red;
+}
+
+#BaseElesisInfo {
+    color:white;
+    font-family:arial;
+    font-size:14pt;
+    line-height:160%;
+    background-color:red;
+}
+
+#BaseAddQuote {
+    text-align:center;
+    font-family:monospace;
+    font-size:20pt;
+    background-color:thistle;
+}
+
+#BaseAddInfo {
+    font-family:monospace;
+    font-size:14pt;
+    line-height:160%;
+    background-color:thistle;
 }
 
 #BaseLucielQuote1 {

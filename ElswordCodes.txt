@@ -193,3 +193,6 @@ Tried to bring Aisha back after clicking Elsword and making everything disappear
             BaseAisha.style.display = "visible";
         });
     }
+    
+    
+Why my images are white boxes: I took the images from elwiki, and elwiki is blocked, so the images are blocked.
