@@ -15,13 +15,13 @@ button.addEventListener("click", doMath);
 //This is the actual function that does math.
 function doMath() {
     
-//Addition
+//for Addition problems
     if (dropdown.value == "+") {
         answer = parseInt(input1.value) + parseInt(input2.value);
         display.innerHTML = answer;
     }
 
-//Subtraction
+//for Subtraction problems
     if (dropdown.value == "-") {
         answer = parseInt(input1.value) - parseInt(input2.value);
         display.innerHTML = answer;
